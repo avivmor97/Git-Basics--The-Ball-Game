@@ -4,6 +4,7 @@
 
 body{
     background-color: black;
+    
 }
 
 h1{
@@ -16,4 +17,7 @@ h1{
     border-radius: 50%;
     background-color: aquamarine;
     margin: auto;
+    margin-top: 400px;
+    
+
 }
