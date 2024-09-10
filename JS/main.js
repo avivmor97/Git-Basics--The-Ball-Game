@@ -5,12 +5,12 @@ var currentHeight = 100
 
 function onBallClick(){
     var elBall = document.querySelector('.ball')
-    currentWidth += 50
-    currentHeight += 50
+    currentWidth += getRandomInt(20, 60)
+    currentHeight += getRandomInt(20, 60)
     elBall.style.width = currentWidth + 'px'
     elBall.style.height = currentHeight + 'px'
 
-    if(currentHeight && currentHeight === 400){
+    if(currentHeight && currentHeight > 400){
         currentWidth = 100
         currentHeight = 100
     }
