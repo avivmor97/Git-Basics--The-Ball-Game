@@ -17,7 +17,7 @@ h1{
     border-radius: 50%;
     background-color: aquamarine;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 200px;
     text-align: center;
     display: flex;
     justify-content: center; 
@@ -37,6 +37,26 @@ h1{
     width: 100px;
     border-radius: 50%;
     background-color: rgb(255, 230, 0);
+    margin: auto;
+    margin-top: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: black; 
+    font-size: 22px; 
+    font-weight: bold;
+    transition: 1s;
+    
+    
+
+}
+.ball3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
     margin: auto;
     margin-top: 400px;
     text-align: center;
