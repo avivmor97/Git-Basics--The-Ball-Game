@@ -9,6 +9,13 @@ function onBallClick(){
     currentHeight += 50
     elBall.style.width = currentWidth + 'px'
     elBall.style.height = currentHeight + 'px'
+
+    if(currentHeight && currentHeight === 400){
+        currentWidth = 100
+        currentHeight = 100
+    }
+
+
    
 
 }
